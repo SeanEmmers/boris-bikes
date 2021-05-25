@@ -1,5 +1,17 @@
-describe 'DockingStation' do
-  it "returns 'bike' when passed 'give me a bike'" do
-  expect (DockingStation("give me a bike")).to eq @bike
-  end
+require 'docking-station'
+
+#Does DockingStation exist
+describe DockingStation do
 end
+
+#One line syntax
+describe 'DockingStation' do
+  it { is_expected.to respond_to(:release_bike)}
+end
+
+
+#describe 'DockingStation' do
+  #it "responds to release_bike" do
+  #expect(DockingStation).to respond_to(:release_bike)
+  #end
+#end
