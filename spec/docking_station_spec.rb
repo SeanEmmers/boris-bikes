@@ -5,7 +5,7 @@ describe DockingStation do
 end
 
 #One line syntax
-describe 'DockingStation' do
+describe DockingStation do
   it { is_expected.to respond_to(:release_bike)}
 end
 
