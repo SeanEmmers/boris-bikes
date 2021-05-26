@@ -1,8 +1,4 @@
-require 'docking_station'
-
-#Describe the Bike class
-describe Bike do
-end
+require 'bike'
 
 #Does the Bike class respond the 'working?' method
 describe Bike do

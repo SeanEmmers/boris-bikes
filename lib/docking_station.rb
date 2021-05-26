@@ -5,14 +5,7 @@ class DockingStation
     return Bike.new
   end
 
-  #def return_bike(bike)
-    #bike = Bike.new
-    #@returned_bike = bike
-  #end
-end
-
-class Bike
-  def working?
-    true
+  def dock(bike)
   end
+  
 end
