@@ -1,0 +1,1 @@
+This is a directory for a release and storing of rentable bikes.
