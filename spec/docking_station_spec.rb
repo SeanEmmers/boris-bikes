@@ -40,7 +40,7 @@ end
 # Dock method will return an error when it already contains @bike
 describe '#dock' do
   it 'raises an error when full' do
-    20.times { subject.dock Bike.new } 
+    DEFAULT_CAPACITY.times { subject.dock Bike.new } 
     expect { subject.dock Bike.new }.to raise_error 'Docking station is full'
   end
 end
